@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Ice Cream Business</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<div class="container" id="loginPage">
+    <h1 class="title">🍦 Ice Cream Login 🍦</h1>
+
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+</div>
+
+<!-- HOME PAGE -->
+<div class="container hidden" id="homePage">
+    <h1 class="title">🍨 Blue Ice Cream 🍨</h1>
+
+    <img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625"
+         alt="Es Krim"
+         class="product-img">
+
+    <h2>Es Krim Vanilla Blue Sky</h2>
+
+    <p>
+        Es krim premium dengan rasa vanilla lembut dan sensasi dingin menyegarkan.
+        Dibuat dari bahan berkualitas tinggi, cocok untuk menemani hari-harimu.
+    </p>
+
+    <p class="price">Rp 15.000 / cup</p>
+
+    <div class="promo">
+        💙 Nikmati manisnya kebahagiaan dalam setiap sendok!
+        Beli sekarang dan rasakan kesegarannya 🍦
+    </div>
+
+    <button onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
